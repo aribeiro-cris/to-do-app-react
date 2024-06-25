@@ -26,6 +26,12 @@ button {
   color: white;
 }
 
+.image-check {
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: darken;
+}
+
 .add-button {
   background-color: brown;
   padding: 7px;
@@ -77,8 +83,8 @@ li {
   font-weight: bold;
   padding: 15px;
   margin-bottom: 10px;
-  background-color: rgb(239, 239, 239);
-  border: 3px solid lightgray;
+  background-color: lightgray;
+  border: 3px solid rgba(129, 122, 122, 0.552);
   display: flex;
   align-items: center;
 }
